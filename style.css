@@ -1,0 +1,36 @@
+#titulo {
+    font-size: 30px !important;
+    color: #FFFFFF !important;
+    background: #333333 !important;
+    text-shadow: #FFF 0px 0px 5px, 
+    #FFF 0px 0px 10px, 
+    #FFF 0px 0px 15px, 
+    #FF2D95 0px 0px 20px, 
+    #FF2D95 0px 0px 30px, 
+    #FF2D95 0px 0px 40px, 
+    #FF2D95 0px 0px 50px, 
+    #FF2D95 0px 0px 75px !important;
+    color: #FFFFFF !important;
+    background: #333333 !important;
+}
+
+button {
+    font-size: 25px !important;
+}
+
+.btn-danger:hover {
+    background-color: aqua;
+}
+
+canvas {
+    margin-top: 100px;
+    animation-name: ejemplo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius:20px;
+}
+
+@keyframes ejemplo {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px yellow;}
+}
